@@ -27,7 +27,7 @@
   },
   "scripts": {
     "preinstall": "npm install --ignore-scripts",
-    "postinstall": "npm run grunt browserify",
-    "test": "npm run grunt test"
+    "postinstall": "yarn grunt browserify",
+    "test": "yarn grunt test"
   }
 }
